@@ -15,5 +15,5 @@ das telas e o servidor precisa lidar com um número muito maior de requests do q
 ## Contato
 
 Erick Kronemberger
-e-mail  : erick.kronemberger@gmail.com
-celular : +5511989871684
+
+erick.kronemberger@gmail.com
