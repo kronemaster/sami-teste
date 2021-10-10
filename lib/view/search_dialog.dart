@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sami/view/state.dart';
+import 'package:sami/controller/state.dart';
 
 /// Para permitir que o usuário cancele a pesquisa por poderes (x)
 class PowerSearchButton extends StatefulWidget {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sami/model/model.dart';
 import 'package:sami/view/hero_details.dart';
-import 'package:sami/view/state.dart';
+import 'package:sami/controller/state.dart';
 
 class HeroesList extends StatelessWidget {
   const HeroesList({ Key? key }) : super(key: key);
@@ -43,7 +43,7 @@ class HeroesList extends StatelessWidget {
             }
             
             /// A lista de heróis é definida pelas alterações no [ChangeNotifier], por isso 
-            /// o elemento [thisHero] é definido a partir de -->list<--.heroes.
+            /// o elemento [thisHero] é definido a partir de -->prov<--.heroes.
             SuperHero thisHero = prov.heroes[index];
           
             return InkWell(
@@ -72,7 +72,7 @@ class HeroesList extends StatelessWidget {
                       flex: 2,
                       child: ListTile(
                         title: Text(thisHero.name),
-                        subtitle: Text('${thisHero.biography?['full-name'] ?? ''}\n${thisHero.biography?['alignment'] == 'bad' ? 'VILLAIN' : 'HERO'}'),
+                        subtitle: Text('${thisHero.biography?['full-name'] ?? ''}\n${thisHero.biography?['alignment'] == 'bad' ? 'VILÃO' : 'HERÓI'}'),
                       )
                     )
                   ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sami/view/home.dart';
-import 'package:sami/view/state.dart';
+import 'package:sami/controller/state.dart';
 import 'model/model.dart';
 
 /// Variáveis globais e imutáveis

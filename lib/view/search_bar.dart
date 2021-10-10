@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sami/view/state.dart';
+import 'package:sami/controller/state.dart';
 
 class SearchBar extends StatefulWidget {
   const SearchBar({ Key? key }) : super(key: key);

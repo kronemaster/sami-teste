@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sami/main.dart';
 import 'package:sami/view/heroes_list.dart';
-import 'package:sami/view/state.dart';
-import 'package:sami/view/widgets/search_bar.dart';
-import 'package:sami/view/widgets/search_dialog.dart';
+import 'package:sami/controller/state.dart';
+import 'package:sami/view/search_bar.dart';
+import 'package:sami/view/search_dialog.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
